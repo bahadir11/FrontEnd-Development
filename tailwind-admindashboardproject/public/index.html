@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/908da451ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+      integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Dashboard</title>
+  </head>
+  <body class="bg-gray-200">
+    <div class="flex w-full">
+      <div class="left-section w-1/4 bg-indigo-900">
+        <div>
+          <div
+            class="bg-indigo-700  text-3xl text-white font-bold text-gray-200 "
+          >
+            <h1 class="p-8">Baja INC.</h1>
+          </div>
+          <div class="p-8">
+            <p class="text-white mb-5">Pages</p>
+            <ul>
+              <li class="flex align-middle mb-5">
+                
+                <img class="w-8 h-8" src="../img/dashboard.png" alt="" />
+               <a href=""> <p class="text-white m-3 mt-0 mb-0 text-lg">Dashboard</p></a>
+              </li>
+              <li class="flex align-middle mb-5">
+                <img class="w-8 h-8" src="../img/customers.png" alt="" /><a href="">
+                <p class="text-white m-3 mt-0 mb-0 text-lg">Customers</p></a>
+              </li>
+              <li class="flex align-middle mb-5">
+                <img class="w-8 h-8" src="../img/orders.png" alt="" /><a href="">
+                <p class="text-white m-3 mt-0 mb-0 text-lg">Orders</p></a>
+              </li>
+              <li class="flex align-middle mb-5">
+                <img class="w-8 h-8" src="../img/campaign.png" alt="" /><a href="">
+                <p class="text-white m-3 mt-0 mb-0 text-lg">Campaings</p></a>
+              </li>
+              <li class="flex align-middle mb-5">
+                <img class="w-8 h-8" src="../img/messages.png" alt="" /><a href="">
+                <p class="text-white m-3 mt-0 mb-0 text-lg">Messages</p></a>
+              </li>
+              <li class="flex align-middle mb-5">
+                <img class="w-8 h-8" src="../img/apps.png" alt="" /><a href="">
+                <p class="text-white m-3 mt-0 mb-0 text-lg">Apps</p></a>
+              </li>
+              <li class="flex align-middle mb-5">
+                <img class="w-8 h-8" src="../img/settings.png" alt="" /><a href="">
+                <p class="text-white m-3 mt-0 mb-0 text-lg">Settings</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="relative right-section w-3/4 box-border">
+        <nav class=" box-border bg-white flex justify-between">
+          <div class="flex p-5" >
+            <img class="h-12 w-12" src="../img/person.png" alt="" />
+            <p class="m-3 text-xl ">Rasim K.</p>
+          </div>
+          <div class="p-5" >
+            <ul class="flex">
+              <li class="m-3"><img class="h-8 w-8 bg-gray-200 rounded-full p-1" src="../img/search.png" alt="" /></li>
+              <li class="m-3"><img class="h-8 w-8 bg-gray-200 rounded-full p-1" src="../img/message.png" alt="" /></li>
+              <li class="m-3"><img class="h-8 w-8 bg-gray-200 rounded-full p-1" src="../img/warning.png" alt="" /></li>
+              <li class="m-3 text-lg text-blue-500 font-semibold"><a href="">Logout</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="top-div p-5">
+          <div class="hello-div m-10 text-center">
+            <div>
+              <h1>Good afternoon, Baja INC.</h1>
+              <p>&#128528;</p>
+            </div>
+            <p>Here is what's happening with your projects today:</p>
+          </div>
+          <div>
+            <div class="double-cards">
+              <div class="card">
+                <img src="../img/wallet.png" alt="" />
+                <h3>super plus</h3>
+                <p>sales</p>
+                <div>
+                  <h2>$24,564</h2>
+                  <p>+49%</p>
+                </div>
+                <div class="chart">
+                  <div>
+                    <canvas id="myChart"></canvas>
+                  </div>
+
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                  <script>
+                    const ctx = document.getElementById("myChart");
+
+                    new Chart(ctx, {
+                      type: "bar",
+                      data: {
+                        labels: [
+                          "Red",
+                          "Blue",
+                          "Yellow",
+                          "Green",
+                          "Purple",
+                          "Orange",
+                        ],
+                        datasets: [
+                          {
+                            label: "# of Votes",
+                            data: [12, 19, 3, 5, 2, 3],
+                            borderWidth: 1,
+                          },
+                        ],
+                      },
+                      options: {
+                        scales: {
+                          y: {
+                            beginAtZero: true,
+                          },
+                        },
+                      },
+                    });
+                  </script>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../img/wallet.png" alt="" />
+                <h3>super plus</h3>
+                <p>sales</p>
+                <div>
+                  <h2>$24,564</h2>
+                  <p>+49%</p>
+                </div>
+                <div class="chart">
+                  <div>
+                    <canvas id="myChart1"></canvas>
+                  </div>
+
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                  <script>
+                    const ctz = document.getElementById("myChart1");
+
+                    new Chart(ctz, {
+                      type: "pie",
+                      data: {
+                        labels: [
+                          "Red",
+                          "Blue",
+                          "Yellow",
+                          "Green",
+                          "Purple",
+                          "Orange",
+                        ],
+                        datasets: [
+                          {
+                            label: "# of Votes",
+                            data: [12, 19, 3, 5, 2, 3],
+                            borderWidth: 1,
+                          },
+                        ],
+                      },
+                      options: {
+                        scales: {
+                          y: {
+                            beginAtZero: true,
+                          },
+                        },
+                      },
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class="double-cards">
+              <div class="card">
+                <img src="../img/wallet.png" alt="" />
+                <h3>super plus</h3>
+                <p>sales</p>
+                <div>
+                  <h2>$24,564</h2>
+                  <p>+49%</p>
+                </div>
+                <div class="chart">
+                  <div>
+                    <canvas id="myChart2"></canvas>
+                  </div>
+
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                  <script>
+                    const ctn = document.getElementById("myChart2");
+
+                    new Chart(ctn, {
+                      type: "radar",
+                      data: {
+                        labels: [
+                          "Red",
+                          "Blue",
+                          "Yellow",
+                          "Green",
+                          "Purple",
+                          "Orange",
+                        ],
+                        datasets: [
+                          {
+                            label: "# of Votes",
+                            data: [12, 19, 3, 5, 2, 3],
+                            borderWidth: 1,
+                          },
+                        ],
+                      },
+                      options: {
+                        scales: {
+                          y: {
+                            beginAtZero: true,
+                          },
+                        },
+                      },
+                    });
+                  </script>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../img/wallet.png" alt="" />
+                <h3>super plus</h3>
+                <p>sales</p>
+                <div>
+                  <h2>$24,564</h2>
+                  <p>+49%</p>
+                </div>
+                <div class="chart">
+                  <div>
+                    <canvas id="myChart3"></canvas>
+                  </div>
+
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                  <script>
+                    const ctl = document.getElementById("myChart3");
+
+                    new Chart(ctl, {
+                      type: "line",
+                      data: {
+                        labels: [
+                          "Red",
+                          "Blue",
+                          "Yellow",
+                          "Green",
+                          "Purple",
+                          "Orange",
+                        ],
+                        datasets: [
+                          {
+                            label: "# of Votes",
+                            data: [12, 19, 3, 5, 2, 3],
+                            borderWidth: 1,
+                          },
+                        ],
+                      },
+                      options: {
+                        scales: {
+                          y: {
+                            beginAtZero: true,
+                          },
+                        },
+                      },
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
