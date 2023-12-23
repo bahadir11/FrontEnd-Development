@@ -1,0 +1,138 @@
+@media (max-width: 768px){
+    .main-nav{
+       width: 100%;
+       display: block;
+       text-align: center;
+       height: auto;
+    }
+    .nav-left{
+        display: block;
+        width: 100%;
+        font-size: .8em;
+    }
+    .nav-right{
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .nav-right a{
+        font-size: .8em;
+        margin: 0 5px;
+        padding: 4px;
+    }
+    .main-div-content{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .main-div-content h1{
+        font-size: 3rem;
+    }
+    .main-div-content p{
+        font-size: 1rem;
+    }
+    .main-div-content a{
+        padding: 8px;
+        font-size: .8rem;
+    }
+    .col-4-div{
+        display: block;
+    }
+    .info-section-div{
+        font-size: .9em;
+    }
+    .col-2-div{
+        display: block;
+    }
+    
+    .about-right,.about2-left{
+        height: auto;
+        font-size: .9em;
+        padding-bottom: 20px;
+    }
+    .about-right h1,
+     .about2-left h1{
+        margin-top: 1%;
+    }
+    .about2-right{
+        padding: 0;
+        margin: 0;
+        background-size: auto;
+        
+    }
+    .gallery-div{
+        position: relative;
+        width: 100%;
+    }
+    .img{
+        width: 46%;
+        margin: 1%;
+        border: none;
+    }
+    .rooms{
+        margin: 3% 0;
+    }
+    .col-3-div{
+        display: block;
+    }
+    .rooms h1{
+        font-size: 2em;
+    }
+    .rooms > p{
+        font-size: .8em
+    }
+    .room p{
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    .teams h1{
+        font-size: 2em;
+    }
+    .team{
+        padding: 15px 0;
+    }
+    .team img{
+        width: 70%;
+    }
+    .contact h1{
+        font-size: 2em;
+    }
+    .contact-right{
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+}
+@media (min-width:1400px){
+    nav{
+        padding-right:5% ;
+        padding-left:5% ;
+    }
+    .info-section{
+        width: 80%;
+        margin: auto;
+    }
+    .about{
+        width: 100%;
+        padding: 0 10%;
+        background-color:#333;
+    }
+    .about2{
+        width: 100%;
+        padding: 0 10%;
+        background-color:rgb(51, 51, 255) ;
+    }
+    .gallery{
+        margin: 5% 8%;
+    }
+    .rooms{
+        margin: 5% 10%;
+    }
+    .teams{
+        padding: 4% 10%;
+    }
+    .contact{
+        padding: 5% 10%;
+    }
+}

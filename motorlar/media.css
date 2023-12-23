@@ -1,0 +1,107 @@
+@media (max-width: 768px){
+    .main-nav{
+        
+        flex-direction: column;
+        width: 100%;
+        height: 11vh;
+    }
+    #main-nav-first-div i{
+        font-size: 1em;
+    }
+    #main-nav-first-div{
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    #main-nav-first-div h1{
+        width: 100%;
+        margin: 0;
+        font-size: 1.2em;
+    }
+    .nav-list{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .nav-list-item{
+        width: 33%;
+    }
+    .nav-list-item a{
+        font-size: 1.2em;
+        margin: 3px;
+    }
+    .nav-list-item:last-child a{
+        padding: 5px;
+    }
+    .first-section-main-div{
+        background-attachment: fixed;
+        height: 89vh;
+    }
+    .cover{
+        height: 89vh;
+    }
+    .first-section-main-div-content{
+        font-size: 1.5rem;
+    }
+    .first-section-main-div-content h1{
+        border-radius: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 1.7em;
+    }
+    .first-section-main-div-content p{
+        text-align: center;
+        font-size: 1.2em;
+        padding:  0 10%;
+    }
+    .photo-section{
+        padding: 25px 0;
+    }
+    .photo-section h1{
+        font-size: 3em;
+        margin-top: 10px;
+    }
+    .photo-section h2{
+        font-size: 2em;
+        margin: 20px 10px;
+    }
+    .image-div{
+        width: 100%;
+    }
+    .footer-div{
+        font-size: 1em;
+    }
+    .right-footer i{
+        font-size: 1em;
+    }
+    .main-section-div h1{
+        font-size: 2em;
+        padding: 15px;
+    }
+    .photo-info-div{
+        flex-direction: column-reverse;
+    }
+    .img-div-main-section{
+        width: 80%;
+        margin: 15% 10%;
+    }
+    .info-div-main-section{
+        width: 90%;
+        margin: 5%;
+    }
+    .form-div{
+        margin: 15% 0;
+        margin-bottom: 20%;
+    }
+    .form-list{
+        width: 90%;
+        margin: 5% ;
+        padding: 25px;
+    }
+    .form-list h1{
+        font-size: 1.5em;
+    }
+    .form-list-item label{
+        font-size: 1em;
+    }
+}

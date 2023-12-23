@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    background: whitesmoke;
+    color: #333;
+    line-height: 1.6;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+}
+p{
+    margin:1rem 0;
+}
+img{
+    width: 100%;
+}
+.text-center{
+    text-align: center ;
+}
+.main-nav{
+    height: 10vh;
+    background-color:#333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    opacity: .9;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+.nav-left h1{
+    margin: 5px 15px;
+}
+.nav-left i{
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-left p{
+    display: inline-block;
+}
+.nav-left span{
+    color: goldenrod;
+    margin-right: 5px;
+}
+.main-nav a{
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+}
+.nav-right{
+    display: flex;
+    margin: auto 3%;
+}
+.nav-right a{
+    margin: 0 10px;
+    padding: 10px;
+    transition: .1s;
+}
+.nav-right a:hover{
+    transition: .1s;
+    border-bottom: 1px solid goldenrod;
+}
+.main-div{
+    background: url(img/bg-1.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.6;
+    height: 100vh;
+    width: 100%;
+}
+.main-div-content{
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+    top: 50%;
+    
+    transform: translate(0,-50%);
+    width: 40%;
+    margin: 0 30%;
+}
+.main-div-content h1{
+    font-size: 4.2rem;
+}
+.main-div-content p{
+    margin-bottom: 30px;
+}
+.main-div-content a{
+    color: white;
+    background-color: rgb(51, 51, 255);
+    padding: 10px;
+    border-radius: 6px;
+}
+.info-section{
+    padding: 5% 0;
+}
+.info-section-div i{
+    color: whitesmoke;
+    background-color: rgb(51, 51, 255);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 2em;
+    margin: 15px 0;
+}
+.about,.about2{
+    margin: 20px 0;
+}
+.about-left{
+    width: 100%;
+    height: 60vh;
+    background: url(img/about1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about2-right{
+    width: 100%;
+    height: 60vh;
+    background: url(img/about2.jpeg);
+    background-repeat: no-repeat;
+    block-size: cover;
+    background-position: center;
+}
+.about-right{
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    position: relative;
+}
+.about-right h1, .about2-left h1{
+    font-size: 2em;
+    margin-top: 15%;
+}
+.about-right a,.about2-left a{
+    color: whitesmoke;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    padding: 10px 25px;
+    transition: .2s;
+    margin-top: 15px;
+}.about-right a:hover{
+    background-color: #272727;
+    transition: .2s;
+}
+.about-right p, .about2-left p{
+    margin-bottom: 20px;
+}
+.about2-left{
+    background-color: rgb(51, 51, 255) ;
+    color: whitesmoke;
+    padding: 20px;
+    position: relative;
+}
+.about2-left a:hover{
+    transition: .2s;
+    background-color: blue;
+}
+.gallery{
+    text-align: center;
+    padding: 20px;
+    margin: 5% auto;
+}
+.gallery h1{
+    font-size: 3em;
+}
+.rooms,.teams{
+    padding: 20px;
+}
+.rooms h1,.teams h1{
+    font-size: 3em;
+}
+.gallery-div{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.img{
+    box-sizing: border-box;
+    height:auto;
+    width: 24%;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: .5%;
+    border: none;
+    overflow: hidden;
+}
+/* .img:hover{
+    transform: scale(1.1);
+} */
+
+.rooms{
+    margin: 5% 0;
+}
+.teams-div{
+    margin: 2%;
+}
+.rooms-div,.gallery-div{
+    margin: 2%;
+    padding-bottom: 50px;
+}
+.room{
+    color: whitesmoke;
+    margin: 0 10px;
+    background-color: goldenrod;
+    box-sizing: border-box;
+    margin-top: 4%;
+   background-position: center;
+}
+.img-div{
+     overflow: hidden;
+     width: 100%;
+    height: 38vh;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.room img{
+    background-color: white;
+}
+.room h3,.team h3{
+    font-size: 1.2em;
+}
+.img-div img{
+    transition: .3s;
+
+}
+.room img:hover{
+    transition: .3s;
+    transform: scale(1.2);
+}
+.room p{
+    margin-bottom: 20px;
+}
+.teams{
+    padding-top: 8%;
+    background-color: #bdbdbd;
+}
+.teams-div{
+    margin-top: 5%;
+}
+.team{
+    margin: 2%;
+}
+.team img{
+    border-radius: 75%;
+}
+.contact{
+    background-color: #bdbdbd;
+    position: relative;
+}
+.contact-left{
+    background-image: url(img/contact.jpeg);
+    /* height: 60vh; */
+}
+.contact-right{
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+.contact-right h1{
+    font-size: 2.4em;
+    margin: 10px 0;
+}
+.contact-list-item{
+    margin: 10px;
+}
+.contact-list-item label{
+    display: block;
+    font-size: 1.2em;
+}
+.contact-list-item input{
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+.contact-list-item input:focus{
+    border: none;
+    
+}
+.contact-right button{
+    color: whitesmoke;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: rgb(51, 51, 255) ;
+    padding: 5px;
+    transition: .3s;
+    margin-top: 15px;
+}
+.contact-right button:hover{
+    background-color:rgb(29, 29, 212) ;
+    cursor: pointer;
+    transition: .3s;
+}
+footer{
+    background-color: #bdbdbd;
+}
+.footer-div{
+    padding: 50px;
+    padding-bottom: 30px;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+.footer-list-item{
+    margin: 0 5px;
+}
+.footer-list-item a{
+    color: #EF4040;
+}

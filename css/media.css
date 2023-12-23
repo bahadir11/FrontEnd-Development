@@ -1,0 +1,611 @@
+/* @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css); */
+@media (min-width: 100px) and (max-width: 576px){
+   
+    *{
+        font-size: 1em;
+    }
+    .responsive .nav-list-item{
+        
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: blueviolet;
+        padding: 10px;
+        text-align: center;
+        width: 80px;
+        transition: .3s;
+        border: 2px solid black;
+    }
+    .responsive #nav-list-item-one{
+        top: 180%;
+    }
+    .responsive #nav-list-item-two{
+        top:250%;
+    }
+    .responsive #nav-list-item-three{
+        top: 325%;
+    }
+    .responsive .nav-list-item:last-child{
+        display: block;
+        position: absolute;
+        left: auto;
+        right: 5%;
+        top: 40%;
+        margin: 0;
+        padding: 0;
+        background-color:rgba(181, 143, 143,0);
+        border: transparent;
+    }
+    #body{
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+    }
+    nav{    
+        box-sizing: border-box;   
+        width: 100%;
+        height: fit-content;
+        position: relative;
+       
+    }
+    nav >a{
+        font-size: 1em;
+        width: 8%;                   
+    }
+    .nav-list-item:last-child{
+        display: inline-block;
+        width:fit-content;
+        padding-right: 2%;
+    }
+    .nav-list-item{
+        text-align: right;
+        display: none;
+        margin: 0;
+    }
+    
+    .nav-list-item a{
+        font-size: 1em;
+        
+    }
+    #showcase{
+        height: 40vh;
+        width: 100%;
+    }
+    section{
+        height: 40vh;
+        width: 100%;
+
+    }
+    .first-div h1{
+        font-size: 1.6em;
+        width: 100%;
+        top: 25%;
+    }
+    .cover{
+        height: 40vh;
+        width: 100%;
+
+    }
+    #first-info-div{
+        height: fit-content;
+        padding: 10px;
+    }
+    #first-info-div h2{
+        font-size: 1.2em;
+        padding: 5px 10px;
+    }
+    #first-info-div p{
+        font-size: 1em;
+    }
+    #info-list{
+        box-sizing: border-box;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    #info-list li{
+        box-sizing: border-box;
+        display: block;  
+        text-align: center;
+        width: 90%;  
+        padding: 5px 10px;
+        margin: 5px;
+    }
+    #info-list h2{
+        margin: 3px 0;
+    }
+    #info-list p{
+        margin: 5px 0;
+    }
+   #info-list i{
+    height: 20px;
+    width: 30px;
+    font-size: 1em;
+    color: black;
+   }
+   .photo-info-section{
+    height: 60vh;
+   }
+   #photo-info-div-left{
+    display: block;
+    width: 100%;
+    height: 20vh;
+   }
+   #photo-info-div-right{
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    padding: 0;
+    
+   }
+   #photo-info-div-right h2{
+    font-size: 1.2em;
+    vertical-align:bottom;
+    padding: 10px 0;
+    padding-top: 3vh;
+   }
+   #photo-info-div-right p{
+    width: 100%;
+    font-size: 1em;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: left;
+   }
+   #photo-info-div-right a{
+    font-size: .8em;
+    padding: 5px;
+    margin: 7.5px;
+   }
+   .three-cards-section{
+    height: 110vh;
+   }
+   .three-cards-section >h1{
+    font-size: 1.2em;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 0;
+    position: relative;
+   }
+   .three-cards-div{
+    text-align: center;
+   }
+   .card{
+    font-size: 1em;
+    width: 70%;
+    display: block;
+    margin:5% 0;
+    padding: 20px 15px;
+    margin-left: 14%;
+    /* transform: translate(-50%,0); */
+   }
+   .card h1{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    
+   }
+   .card h2{
+    padding-bottom: 10px;
+    font-size: 1.8em;
+   }
+   .card p{
+    padding: 10px;
+    color: rgb(234, 158, 254);
+   }
+   .card li{
+    margin: 0 5%;
+    font-size: 1em;
+   }
+   .card a{
+    padding: 5px;
+    font-size: .8em;
+   }
+   .card a:hover{
+    font-size: 1em;
+   }
+   #card2{
+    position: relative;
+    top: 0;
+   }
+   .card2{
+    width: 30%;
+    padding: 0;
+    margin: 5% 1%;
+   }
+   .moviecards{
+    height: 350vh;
+    padding-bottom: 5%;
+    
+   }
+   .moviecards-title-div{
+    padding: 20px 15px;
+    font-size: 1.2em;
+    height:fit-content;
+    
+   }
+   .moviecards-holder-div{
+    margin: 0 10%;
+    padding-top: 5%;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    height: auto;
+  
+    
+   }
+   .moviecard{
+    display: block;
+    
+    width: 100%;
+    height: auto;
+    margin: 5% 0;
+   }
+   #moviecard1{
+    position: static;
+    display: block;
+   }
+   #moviecard3{
+    position: static;
+    display: block;
+   }
+   #moviecard2{
+    position: static;
+    transform: translate(0,0);
+    display: block;
+   }
+   .moviecard h2{
+    padding: 5px;
+    font-size: 1em;
+    margin: 0;
+   }
+   .moviecard p{
+    font-size: 1em;
+    padding: 0 10px;
+   }
+   .moviecard a{
+    font-size: .8em;
+    margin-left: 5px;
+   }
+   .moviecard:hover{
+    transform: translate(0,0);
+   }
+   #moviecard2:hover{
+    transform: translate(0,0);
+   }
+   footer{
+    height:8vh;
+   }
+   .footer-container-div{
+    padding-top: 10px;
+   }
+   
+}
+@media (min-width:577px) and (max-width: 767px){
+    /* #body{
+        width: 100%;
+    } */
+    nav{
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    nav>a{
+        font-size: 1.2em;
+    }
+    .nav-list-item a{
+        font-size: 1em;
+    }
+    section{
+        height: 50vh;
+    }
+    .first-div h1{
+        top: 30%;
+        font-size: 2.2em;
+        width: 100%;
+        padding: 10px 0;
+    }
+    #showcase{
+        height: 50vh;
+    }
+    .cover{
+        height: 50vh;
+    }
+    #first-info-div h2{
+        font-size: 2em;
+    }
+    #info-list li{
+        box-sizing: border-box;
+    }
+    #first-list-element-of-info-div{
+        display: inline-block;
+        width: 45%;
+    }
+    #second-list-element-of-info-div{
+        display: inline-block;
+        width: 45%;
+    }
+    #third-list-element-of-info-div{
+        display: block;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .photo-info-section{
+        height: auto;
+    }
+    .photo-info-div{
+        height: auto;
+    }
+    #photo-info-div-left{
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+    #photo-info-div-right{
+        display: block;
+        width: 100%;
+        padding: 20px 40px;
+        height: auto;
+    }
+    #photo-info-div-right h2{
+        font-size: 1.5em;
+    }
+    #photo-info-div-right p{
+        font-size: 1em;
+    }
+    #photo-info-div-right a{
+        font-size: 1em;
+        padding: 5px;
+    }
+    .three-cards-section{
+        width: 100%;
+    }
+    .three-cards-section > h1{
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .three-cards-div{
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .card{
+        display: inline-block;
+        width: 20%;
+        margin: 0;
+        margin-left: 2%;
+
+    }
+    .card a{
+        font-size: .8em;
+        padding: 5px;
+    }
+    .card h2{
+        box-sizing: border-box;
+        font-size: 1em;
+    }
+    .card2{
+        width: 32%;
+        margin: 0;
+        padding: 0;
+    }
+    .moviecards{
+        padding-bottom: 5%;
+        height: 150vh;
+    }
+    .moviecards-title-div{
+        font-size: 1.5em;
+    }
+    .moviecards-holder-div{
+        box-sizing: border-box;
+        display: block;
+        position: relative;
+        
+        width: 100%;
+        margin: 0;  
+    }
+    .moviecard{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 30%;
+        float: none;
+
+    }
+    #moviecard1{
+        position:static;
+    }
+    #moviecard3{
+      position: static;
+    
+    }
+    #moviecard2{
+        transform: translate(0,0);
+      position: static;
+      left: 0;
+       
+    }
+    .moviecard:hover{
+        transform: translate(0,0);
+    }
+    #moviecard2:hover{
+        transform: translate(0,0);
+    }
+    .moviecard img{
+        height: 300px;
+    }
+}
+@media (min-width:768px)  and (max-width: 992px){
+    nav{
+        width: 100%;
+        padding-right: 5%;
+    }
+    section{
+        height: 50vh;
+    }
+    .first-div h1{
+        font-size: 3em;
+        width: 100%;
+        top: 30%;
+    }
+    .cover{
+        height: 50vh;
+    }
+    #showcase{
+        height: 50vh;
+    }
+    #first-list-element-of-info-div{
+        display: inline-block;
+        width: 40%;
+        margin: 0;
+    }
+    .info-list-li{
+        width: 100%;
+    }
+    #info-list{
+        display: block;
+        width: 100%;
+    }
+    #second-list-element-of-info-div{
+        display: inline-block;
+
+        width: 40%;
+        margin: 0;
+    }
+    #third-list-element-of-info-div{
+        width: 40%;
+        margin: 0 30%;
+    }
+    .photo-info-section{
+        height: auto;
+    }
+    .photo-info-div{
+        height: auto;
+    }
+    #photo-info-div-left{
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+    #photo-info-div-right{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    #photo-info-div-right h2{
+        font-size: 1.5em;
+    }
+    #photo-info-div-right p{
+        font-size: 1.3em;
+    }
+    #photo-info-div-section a{
+        font-size: 1.2em;
+        padding: 5px;
+    }
+    .three-cards-section > h1 {
+        font-size: 2em;
+    }
+    .card{
+        margin-left: 4%;
+        width: 20%;
+    }
+    .card h1{
+        padding-bottom: 15px;
+    }
+    .card h2{
+        box-sizing: border-box;
+        font-size: 1.4em;
+        padding-bottom: 15px;
+    }
+    .card2{
+        width: 20%;
+        margin: 0 6.5%;
+    }
+    .moviecards{
+        box-sizing: border-box;
+        height: 150vh;
+        
+    }
+    .moviecards-title-div{
+        padding: 25px;
+        font-size: 2em;
+    }
+    .moviecards-holder-div{
+        
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding: 0 5%;
+        padding-left: 2%;
+        padding-top: 10%;
+    }
+    .moviecard{
+        display: inline-block;
+        width: 30%;
+        margin: 0 1%;
+    }
+    #moviecard3{
+        position: static;
+        right: auto;
+        display: inline-block;
+    }
+    #moviecard2{
+        position: static;
+        left: auto;
+        transform: translate(0,0);
+
+    }
+    .moviecard:hover{
+        transform: translate(0,0);
+    }
+    #moviecard2:hover{
+        transform: translate(0,0);
+
+    }
+}
+@media (min-width:993px) and (max-width: 1200px){
+
+    section{
+        height: 80vh;
+    }
+    .cover{
+        height: 80vh;
+    }
+    #showcase{
+        height: 80vh;
+    }
+    .first-div h1{
+        top: 40%;
+        font-size: 40px;
+    }
+    nav{
+        box-sizing: border-box;
+    }
+    .photo-info-section{
+        height: auto;
+    }
+    .photo-info-div{
+        height: auto;
+    }
+    #photo-info-div-left{
+     height: 400px; 
+    }
+    #photo-info-div-right{
+      height:400px;
+    }
+}
+@media (min-width:1201px) and (max-width: 1400px){
+    
+    section{
+        height: 70vh;
+    }
+    .cover{
+        height: 70vh;
+    }
+    .first-div h1{
+        width: 100%;
+        top:40%;
+    }
+
+}
+@media (min-width:1401px){
+    .first-div h1{
+        top: 30%;
+    }
+}

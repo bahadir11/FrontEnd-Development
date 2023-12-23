@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.container1{
+    margin: 50px;
+    position: relative;
+}
+
+.box{
+    border: 5px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.navbar{
+    background-color: orange;
+}
+.content{
+    background-color: blue;
+}
+.footer{
+    background-color: blueviolet;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}

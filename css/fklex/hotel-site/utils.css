@@ -1,0 +1,19 @@
+.col-4-div{
+    display: flex;
+}
+.col-4{
+    flex-basis: 25%;
+    margin: 15px;
+}
+.col-2-div{
+    display: flex;
+}
+.col-2{
+    flex-basis: 50%;
+}
+.col-3-div{
+    display: flex;
+}
+.col-3{
+    flex-basis: 33%;
+}

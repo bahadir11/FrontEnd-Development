@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/908da451ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex md:flex-row flex-col shadow-2xl pb-2 pt-1 justify-center md:justify-start">
+        <div
+          class=" flex md:text-2xl pl-5 mr-5 pt-3 pb-3 text-green-400 font-normal
+          text-4xl"
+        >
+          <div class="mr-2">
+            <i class="fa fa-house-chimney"></i>
+          </div>
+          <div>Prime Properties</div>
+        </div>
+        <div
+          class="flex md:text-lg pl-5 md:mr-5 pt-4 font-semibold box-border text-center text-gray-500
+          text-2xl mr-8"
+        >
+          <a
+            class="pr-3 pl-3 pb-3 border-opacity-0 border-b-4 hover:border-opacity-50 hover:border-green-600 transition"
+            href=""
+            >Home</a
+          >
+          <a
+            class="pr-3 pb-3 pl-3 border-opacity-0 border-b-4 hover:border-opacity-50 hover:border-green-600 transition"
+            href=""
+            >Services</a
+          >
+          <a
+            class="pr-3 pl-3 pb-3 border-opacity-0 border-b-4 hover:border-opacity-50 hover:border-green-600 transition"
+            href=""
+            >About</a
+          >
+          <a
+            class="pb-3 pl-3 pr-3 border-opacity-0 border-b-4 hover:border-opacity-50 hover:border-green-600 transition"
+            href=""
+            >Contact Us</a
+          >
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="lg:m-40 mt-40 text-center m-10 ">
+        <div>
+          <h1 class="text-7xl font-bold mb-4">Premium Properties</h1>
+          <h1 class="text-7xl font-bold mb-4 text-green-400">
+            Non-Premium Prices
+          </h1>
+          <p class="m-10 pl-10 pr-10 text-gray-500 md:text-lg text-2xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+            officiis, laboriosam distinctio harum, nam ducimus dolorum odit
+            suscipit nulla deleniti illum accusantium fugiat! Sint minima quas
+            blanditiis ab, numquam nobis excepturi repellat corrupti?
+          </p>
+        </div>
+        <div class="">
+          <button
+            class="p-5 text-green-100 bg-green-600 font-bold md:text-lg mr-5 rounded hover:bg-green-400 hover:text-green-700 transition delay-50 text-2xl"
+          >
+            View Properties
+          </button>
+          <button
+            class="p-5 text-green-700 bg-green-200 font-bold md:text-lg mr-5 rounded hover:bg-green-400 hover:text-green-700 transition delay-50 text-2xl"
+          >
+            Explore Locations
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="md:text-3xl text-gray-500 m-40 text-center mb-14 text-5xl">
+        <h2>Recent Properties</h2>
+      </div>
+      <div class="flex m-16 md:mr-5 md:ml-5 lg:m-16 flex-col md:flex-row">
+        <div class=" w-full mb-16 md:mb-0 md:w-1/3 shadow-2xl h-full rounded-2xl">
+          <img class="h-5/6 mb-8 md:mb-0" src="../img/home1.jpg" alt="" />
+          <h3 class="p-4 font-bold md:text-xl text-3xl md:mb-0 mb-8">Orchid Villa</h3>
+          <p class="p-4 text-gray-600 font-semibold pt-0 md:text-lg text-3xl md:mb-0 mb-5">
+            Located in the suburbs of california, orchid villa offers luxury
+            with a modern touch. Equipped with green lighting and a rainwater
+            harvesting system, this property is eco-friendly.
+          </p>
+          <p class="p-4 text-green-500 font-bold md:text-lg text-3xl md:mb-0 mb-5">$ 450,000</p>
+          <p class="p-4 md:mb-0 mb-5">
+            <span
+              class="bg-gray-300 rounded-full text-gray-800 p-4 pt-1 pb-1 font-bold mr-4 md:text-base text-3xl"
+              >7 Beds</span
+            ><span
+              class="bg-gray-300 rounded-full text-gray-800 p-4 pt-1 pb-1 font-bold md:text-base text-3xl"
+              >9 Baths</span
+            >
+          </p>
+          <div class="p-4 md:mb-6 mt-3 mb-8">
+            <a
+              class="bg-green-500 font-bold text-white p-3 rounded-full pt-2 pb-2 hover:bg-green-600 md:text-base text-3xl"
+              href=""
+              >View Property</a
+            >
+          </div>
+        </div>
+        <div class="md:w-1/3 md:mr-5 md:ml-5  lg:mr-10 lg:ml-10 shadow-2xl h-full rounded-2xl w-full md:mb-0 mb-16 mr-0 ml-0">
+          <img class="h-4/6 mb-8 md:mb-0" src="../img/home2.jpg" alt="" />
+          <h3 class="p-4 font-bold md:text-xl text-3xl md:mb-0 mb-8">577 Gracia</h3>
+          <p class="p-4 text-gray-600 font-semibold pt-0 md:text-lg text-3xl md:mb-0 mb-5">
+            Located in the suburbs of california, orchid villa offers luxury
+            with a modern touch. Equipped with green lighting and a rainwater
+            harvesting system, this property is eco-friendly.
+          </p>
+          <p class="p-4 text-green-500 font-bold md:text-lg text-3xl md:mb-0 mb-5">$ 675,000</p>
+          <p class="p-4 md:mb-0 mb-5">
+            <span
+              class="bg-gray-300 rounded-full text-gray-800 p-4 pt-1 pb-1 font-bold mr-4  md:text-base text-3xl"
+              >7 Beds</span
+            ><span
+              class="bg-gray-300 rounded-full text-gray-800 p-4 pt-1 pb-1 font-bold md:text-base text-3xl"
+              >9 Baths</span
+            >
+          </p>
+          <div class="p-4 md:mb-6 mt-3 mb-8">
+            <a
+              class="bg-green-500 font-bold text-white p-3 rounded-full pt-2 pb-2 hover:bg-green-600 md:text-base text-3xl"
+              href=""
+              >View Property</a
+            >
+          </div>
+        </div>
+        <div class="md:w-1/3 shadow-2xl h-full rounded-2xl w-full md:mb-0 mb-16">
+          <img class="h-4/6 mb-8 md:mb-0" src="../img/home3.jpg" alt="" />
+          <h3 class="p-4 font-bold md:text-xl text-3xl md:mb-0 mb-8">Nexa Epitoma</h3>
+          <p class="p-4 text-gray-600 font-semibold pt-0 md:text-lg text-3xl md:mb-0 mb-5">
+            Located in the suburbs of california, orchid villa offers luxury
+            with a modern touch. Equipped with green lighting and a rainwater
+            harvesting system, this property is eco-friendly.
+          </p>
+          <p class="p-4 text-green-500 font-bold md:text-lg text-3xl md:mb-0 mb-5">$ 970,000</p>
+          <p class="p-4 md:mb-0 mb-5">
+            <span
+              class="bg-gray-300 rounded-full text-gray-800 p-4 pt-1 pb-1 font-bold mr-4  md:text-base text-3xl"
+              >7 Beds</span
+            ><span
+              class="bg-gray-300 rounded-full text-gray-800 p-4 pt-1 pb-1 font-bold md:text-base text-3xl"
+              >9 Baths</span
+            >
+          </p>
+          <div class="p-4 md:mb-6 mt-3 mb-8">
+            <a
+              class="bg-green-500 font-bold text-white p-3 rounded-full pt-2 pb-2 hover:bg-green-600 md:text-base text-3xl"
+              href=""
+              >View Property</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="relative luxury-background h-full bg-cover">
+        <div class="relative  pr-30 pl-28 text-left z-50 p-10 pt-96 pb-96 md:p-30 lg:p-60">
+          <h1 class="md:text-6xl font-semibold text-white mb-5 z-50 text-7xl">
+            Experience Luxury Like Never Before
+          </h1>
+          <p class=" text-white mb-16 z-50 text-5xl md:text-3xl">
+            50+ Exotic locations across the globe.
+          </p>
+          <div class="  ">
+            <a
+              class="md:text-2xl p-7 pt-4 pb-4 border-2 border-white bg-transparent text-white font-semibold uppercase z-50 text-4xl"
+              href=""
+              >Explore Locations</a
+            >
+          </div>
+        </div>
+        <div
+          class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black bg-fixed opacity-50 z-10"
+        ></div>
+      </div>
+    </section>
+    <section>
+      <div class="md:text-3xl text-gray-500 m-40 text-center mb-14 h-full text-5xl">
+        <h2>Locations</h2>
+      </div>
+      <div class="flex m-16 md:m-5 lg:m-16 md:flex-row flex-col">
+        <div class="md:w-1/3 shadow-2xl rounded-2xl w-full md:h-full lg:h-auto md:mb-0 mb-10">
+          <img class="h-3/5 w-full" src="../img/newyork.jpg" alt="" />
+          <h3 class="md:p-4 font-bold md:text-xl text-5xl md:mb-0 md:mt-0 mb-5 mt-5 p-6">New York</h3>
+          <p class="md:p-4 lg:pb-48 md:pb-8 mb-20 text-gray-600 font-semibold pt-0 md:text-lg text-3xl p-6">
+            Located in the suburbs of california, orchid villa offers luxury
+            with a modern touch. Equipped with green lighting and a rainwater
+            harvesting system, this property is eco-friendly. Lorem ipsum dolor
+            sit amet, consectetur adipisicing elit. Dolore magnam neque quos
+            blanditiis voluptatibus saepe rem quibusdam, exercitationem libero
+            similique.
+          </p>
+        </div>
+        <div class="md:w-1/3 md:mr-10 md:ml-10 shadow-2xl rounded-2xl w-full md:h-full lg:h-auto md:mb-0 mb-10 mr-0 ml-0">
+          <img class="h-3/5 w-full" src="../img/california.jpg" alt="" />
+          <h3 class="md:p-4 font-bold md:text-xl text-5xl md:mb-0 md:mt-0 mb-5 mt-5 p-6">San Fransisco</h3>
+          <p class="md:p-4 pb-24 md:pb-40 mb-20 text-gray-600 font-semibold pt-0 md:text-lg text-3xl p-6">
+            Located in the suburbs of california, orchid villa offers luxury
+            with a modern touch. Equipped with green lighting and a rainwater
+            harvesting system, this property is eco-friendly.
+          </p>
+        </div>
+        <div class="md:w-1/3 shadow-2xl rounded-2xl w-full md:mb-0 mb-10 md:h-full lg:h-auto">
+          <img
+            class="h-3/5 object-fill w-full"
+            src="../img/chicago.jpg"
+            alt=""
+          />
+          <h3 class="md:p-4 font-bold md:text-xl text-5xl md:mb-0 md:mt-0 mb-5 mt-5 p-6">Chicago</h3>
+          <p class="md:p-4 pb-24 mb-20 text-gray-600 font-semibold pt-0 md:text-lg text-3xl p-6">
+            Located in the suburbs of california, orchid villa offers luxury
+            with a modern touch. Equipped with green lighting and a rainwater
+            harvesting system, this property is eco-friendly. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Totam voluptatem
+            reprehenderit delectus cumque.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="relative h-full bg-gradient-to-r from-green-500 to-green-100">
+        <div class="relative md:p-32 md:pr-30 md:pl-28 text-left z-50 p-64 pl-16 pr-16 ">
+          <h1 class="md:text-6xl font-semibold text-white mb-5 z-50 text-8xl">
+            Save upto 50% on broker commisions
+          </h1>
+          <p class="md:text-3xl text-gray-500 md:mb-16 z-50 text-5xl md:mt-0 mt-10">Lowest brokerage fees</p>
+          <div class="  ">
+            <a
+              class="md:text-2xl p-7 pt-4 pb-4 border-2 bg-white text-black shadow-2xl font-bold uppercase z-50 rounded-3xl hover:bg-gray-200 text-4xl "
+              href=""
+              >Enquire</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="md:text-4xl text-gray-500 m-40 text-center mb-14 relative text-6xl">
+        <h2>What Clients Say About Us ?</h2>
+      </div>
+      <div class="flex m-16 md:mr-5 md:ml-5 md:flex-row flex-col lg:mr-36 lg:ml-36 ">
+        <div
+          class="relative md:w-1/3 shadow-2xl h-full rounded-2xl md:p-5 md:text-lg z-10 w-full text-2xl p-8  md:pt-5 pt-12 md:pb-5 pb-12 md:mb-0 mb-10">
+          <p class="md:text-lg text-4xl">
+            <span class="text-green-500 font-bold md:text-2xl text-6xl"> " </span> To get
+            social media testimonials likethese, keep your customers engaged with your social media accounts by posting regularly yourself<span
+              class="text-green-500 font-bold md:text-2xl text-6xl"
+            >
+              "
+            </span>
+          </p>
+          <div class="flex mt-5 bg-green-100 rounded-full">
+            <img src="../img/avatar.png" class="mr-4 md:mr-2 lg:mr-4 md:h-16 md:w-16 w-24 h-24" alt="" />
+            <div class="flex flex-col">
+              <h3 class="text-green-600 font-semibold pt-1 md:text-lg text-4xl">Murat Timur</h3>
+              <p class="font-semibold md:font-normal lg:font-semibold md:text-sm lg:text-base text-4xl">User of Tailwind</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative md:w-1/3 shadow-2xl h-full rounded-2xl md:p-5 md:text-lg md:mr-5 md:ml-5 z-20 w-full text-2xl p-8 md:pt-5 md:pb-5 pt-12 pb-12 md:mb-0 mb-10 mr-0 ml-0"
+        >
+        <p class="md:text-lg text-4xl">
+            <span class="text-green-500 font-bold md:text-2xl text-6xl"> " </span> To get
+            social media testimonials likethese, keep your customers engaged with your social media accounts by posting regularly yourself<span
+              class="text-green-500 font-bold md:text-2xl text-6xl"
+            >
+              "
+            </span>
+          </p>
+          <div class="flex mt-5 bg-green-100 rounded-full">
+            <img src="../img/avatar.png" class="mr-4 md:mr-2 lg:mr-4 md:h-16 md:w-16 w-24 h-24" alt="" />
+            <div class="flex flex-col">
+              <h3 class="text-green-600 font-semibold pt-1 md:text-lg text-4xl">Murat Timur</h3>
+              <p class="font-semibold md:font-normal lg:font-semibold md:text-sm lg:text-base text-4xl">User of Tailwind</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative md:w-1/3 shadow-2xl h-full rounded-2xl md:p-5 md:text-lg z-10 w-full text-2xl p-8  md:pt-5 pt-12 md:pb-5 pb-12 md:mb-0 mb-10"
+        >
+        <p class="md:text-lg text-4xl">
+            <span class="text-green-500 font-bold md:text-2xl text-6xl"> " </span> To get
+            social media testimonials likethese, keep your customers engaged with your social media accounts by posting regularly yourself<span
+              class="text-green-500 font-bold md:text-2xl text-6xl"
+            >
+              "
+            </span>
+          </p>
+          <div class="flex mt-5 bg-green-100 rounded-full">
+            <img src="../img/avatar.png" class="mr-4 md:mr-2 lg:mr-4 md:h-16 md:w-16 w-24 h-24" alt="" />
+            <div class="flex flex-col">
+              <h3 class="text-green-600 font-semibold pt-1 md:text-lg text-4xl">Murat Timur</h3>
+              <p class="font-semibold md:font-normal lg:font-semibold md:text-sm lg:text-base text-4xl">User of Tailwind</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mb-10">
+      <div class="md:text-4xl text-gray-500 m-40 text-center mb-14 relative text-6xl">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="bg-green-300 text-left w-full md:text-base text-4xl">
+        <form action="" class="pt-16 md:w-2/3 m-auto md:pb-10 pb-16 w-full md:pl-0 pl-12 md:pr-0 pr-12">
+          <div class="w-full text-left">
+            <ul class="flex w-full flex-col md:flex-row ">
+              <li class=" mr-5 md:w-1/2 w-full">
+                <label class="block md:p-3 font-bold text-gray-600 md:text-lg text-4xl p-6 pl-3 " for="name">First Name</label>
+                <input
+                  class="block w-full p-2 m-3 mt-0" 
+                  type="text"
+                  id="name"
+                  placeholder="Ahmet"
+                />
+              </li>
+              <li class="md:w-1/2 w-full">
+                <label class="block md:p-3 font-bold text-gray-600 md:text-lg text-4xl p-6 pl-3 " for="last-name">Last Name</label>
+                <input
+                  class="block w-full p-2 m-3 mt-0"
+                  type="text"
+                  id="last-name"
+                  placeholder="Öztürk"
+                />
+              </li>
+            </ul>
+          </div>
+          <p class="p-3 italic text-green-700 md:pt-0 ">Please fill out this field.</p>
+          <ul class="w-full">
+            <li>
+              <label class="block md:p-3 font-bold text-gray-600 md:text-lg text-4xl p-6 pl-3 capitalize" for="email">e-mail</label>
+              <input class="block w-full p-2 m-3 mt-0" type="email" name="" placeholder="E-Mail" id="email" />
+            </li>
+            <p class="p-3 pt-0 text-gray-700 font-semibold">Some tips - as long as needed</p>
+            <li>
+              <label class="block md:p-3 font-bold text-gray-600 md:text-lg text-4xl p-6 pl-3 " for="message">Message</label>
+              <textarea name="" id="message" cols="30" rows="10" class="block w-full p-2 m-3 mt-0"></textarea>
+            </li>
+          </ul>
+          <p class="p-3 pt-0 text-gray-800 font-semibold">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p>
+          <div class="p-3 md:mt-5 mt-10 ">
+            <a class="font-bold text-white md:p-3 md:pt-2 md:pb-2 rounded bg-green-400 p-12 pt-6 pb-6 hover:bg-green-600" href="">Send</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+        <div class="md:text-3xl text-gray-500 w-full mb-14 mt-16 relative flex justify-center text-5xl">
+            <i class="fa fa-house mr-5"></i>
+            <h2>Prime Properties</h2>
+          </div>
+          <div class="flex text-center justify-between mb-5 md:flex-row flex-col">
+            <div class="flex md:w-1/2 justify-around w-full md:mb-0 mb-12">
+                <ul class="text-left font-semibold md:text-base text-2xl">
+                    
+                    <li class="text-green-500 md:text-lg mb-3 text-3xl">Product
+                    </li>
+                    <li><a href=""> Features</a></li>
+                    <li><a href="">Integrations</a> </li>
+                    <li><a href=""> Pricing</a></li>
+                    <li><a href="">FAQ</a> </li>
+                </ul>
+                <ul class="text-left font-semibold md:text-base text-2xl">
+                    <li class="text-green-500 md:text-lg mb-3 text-3xl">Company</li>
+                    <li><a href=""> Privacy</a></li>
+                    <li><a href="">Terms of Service</a> </li>
+                </ul>
+            </div>
+            <div class="flex md:w-1/2 justify-around w-full md:mb-0 mb-12">
+                <ul class="text-left font-semibold md:text-base text-2xl">
+                    <li class="text-green-500 md:text-lg mb-3 text-3xl">Developers</li>
+                    <li><a href=""> Public API</a></li>
+                    <li><a href=""> Documentation</a></li>
+                    <li><a href=""> Guides</a></li>
+                </ul>
+                <ul class="text-left font-semibold md:text-base text-2xl">
+                    <li class="text-green-500 md:text-lg mb-3 text-3xl">Social Media</li>
+                    <li class="text-xl">
+                         <a href=""><i class="fa-brands fa-facebook"></i></a>
+                      <a href=""> <i class="fa-brands fa-twitter"></i></a> 
+                       <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="text-center">
+            <p class="ml-5 mr-5 text-green-500 font-semibold border-t-2 border-gray-200 pt-10 pb-5 md:text-base text-2xl ">© 1977 BajaProductions Co. All Rights Reserved.</p>
+          </div>
+    </footer>
+  </body>
+</html>

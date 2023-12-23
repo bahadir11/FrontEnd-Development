@@ -1,0 +1,32 @@
+#header{
+    
+    height:100vh;
+    opacity: 1;
+    background-image: linear-gradient(to bottom right ,rgba(38, 103, 0, 0.7),rgba(123,43,166,.7) ),url(../html/images/painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(33% 1%, 0 42%, 43% 54%, 0 75%, 52% 100%, 45% 56%, 65% 99%, 95% 56%, 53% 54%, 95% 23%, 56% 0, 46% 51%);
+
+}
+#header h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    color: red;
+}
+
+body{
+    margin: 0;
+}
+.logo{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    width: 150px;
+    opacity: .6;
+    transform: translate(-50%,-50%);
+}

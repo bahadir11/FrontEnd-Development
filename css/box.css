@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.box{
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+}
+#first{
+    background-color: red;
+}
+#second{
+    background-color: green;
+    visibility: hidden;
+}
+#third{
+    background-color: blue;
+}
+.main-header{
+    background-color: deepskyblue;
+}
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 120px);
+    text-align: right;
+}
+.main-nav-list{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+.main-nav-item{
+    display: inline-block;
+    margin: 0 8px;
+   
+
+}
+.main-nav-item a{
+     text-decoration:none;
+     color: aliceblue;
+}
+.main-nav-item a:hover{
+    color: brown;
+}
+#main-header-logo{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 10px;
+}

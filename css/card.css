@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+}
+#firstH2 {
+    color: red;
+    font-size: 16px;
+    border-bottom: 3px solid green;
+}
+#img1{
+    width: 180px;
+    height: 200px;
+}
