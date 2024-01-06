@@ -1,38 +1,91 @@
+:root{
+    --border-color : #144fc6;
+    --fill-color:#6ab3f8;
+}
+
 *{
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
-    
-    margin: 0;
-    overflow-x: hidden;
-    height: 100vh;
-}
-nav{
-    height: 15vh;
-    background: white;
-    
-    box-shadow: 2px 4px 5px #333;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
+    background-color: #3494e4;
+    color: white;
 }
-nav h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 10px;
-    color: rgb(246, 9, 254);
-    font-weight: bold;
-    font-size: 25px;
+
+h1{
+    margin: 10px 0 0;
 }
-nav ul{
+h3{
+    font-weight: 400;
+    margin: 10px 0;
+}
+.cup{
+    background-color: white;
+    border: 4px solid var(--border-color);
+    color: var(--border-color);
+    border-radius: 0 0 40px 40px;
+    height: 330px;
+    width: 150px;
+    margin: 30px 0;
     display: flex;
-    list-style-type: none;
-    align-items: center;
-    margin-right: 10px;
-    border: 2px solid rgb(255, 18, 255);
-    padding: 5px;
+    flex-direction: column;
+    overflow: hidden;
 }
-nav ul li{
+.cup.cup-small{
+    width: 50px;
+    height: 95px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(255,255,255,.9);
     cursor: pointer;
-    margin: 0 8px;
-    
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: .3s ease;
+}
+.cup.cup-small.full{
+    background-color: var(--fill-color);
+    color: white;
+}
+.cups{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+}
+.remained {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+    transition: .3s ease;
+}
+.remained span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.remained small{
+    font-size: 12px;
+}
+.percentage{
+    background-color: var(--fill-color);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 0;
+    transition: .3s ease;
+}
+.text {
+    text-align: center;
+    margin: 0 0 5px;
 }
