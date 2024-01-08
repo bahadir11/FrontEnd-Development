@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(24, 39, 62);
+    position: relative;
+}
+
+.container{
+    position: relative;
+    padding: 20px 30px;
+    border-radius:5px;
+    box-shadow: 2px 4px 5px #111;
+    background-color: rgb(35, 122, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right-number.active{
+    display: block;
+}
+.right-number{
+    display: none;
+    position: absolute;
+    top: -120px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(65, 144, 222);
+    white-space: nowrap;
+    z-index: 100;
+}
+.right-number h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+#fail-id{
+    color: red;
+}
+.restart-p{
+    color: #1ec9dc;
+    font-size: 20px;
+}
+.content{
+    width: 100%;
+}
+.container.active::after{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+.content h2{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.highorlow.active{
+    display: block;
+}
+.highorlow{
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.high{
+    color: rgb(0, 48, 159);
+    font-weight: bolder;
+    font-size: 25px;
+    padding:0 10px ;
+}
+.low{
+    color: rgb(159, 0, 0);
+    font-weight: bolder;
+    font-size: 25px;
+    padding:0 10px ;
+}
+.check-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    margin-bottom: 20px;
+}
+.answer{
+    width: 50%;
+
+    border: 2px solid black;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.answer:focus{
+    outline: none;
+}
+    
+.btn{
+    width: 50%;
+    
+    color: white;
+    padding: 15px;
+    background-color: rgb(23, 13, 160);font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(.98);
+}
+.chances{
+    padding: 10px 0;
+    font-size: 25px;
+    color: rgb(24, 28, 111);
+    font-weight: bold;
+    
+
+}
+.close,.close1{
+    
+    background-color: red;
+}
+.number-warning, .no-number-warning{
+    position: absolute;
+    display: none;
+    color: white;
+}
+.number-warning h1,.no-number-warning h1{
+    padding-bottom: 20px;
+}
+.number-warning.active ,.no-number-warning.active{
+    display: block;
+    z-index: 100;
+    background-color: rgb(24, 24, 86);
+    padding: 40px 60px;
+    white-space: nowrap;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+    
+
