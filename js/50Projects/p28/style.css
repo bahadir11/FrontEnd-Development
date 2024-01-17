@@ -95,6 +95,7 @@ body {
 @media(max-width:500px){
   .card{
     flex-direction: column;
+    
   }
 }
 
