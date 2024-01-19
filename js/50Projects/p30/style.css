@@ -7,9 +7,45 @@
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-color: orangered;
+}
+
+.speed{
+  position: absolute;
+  bottom: 20px;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
+}
+.speed input{
+  width: 35px;
+  margin: 0 5px;
+  padding: 5px 3px;
+  font-size: 18px;
+  border: none;
+}
+.speed input:focus{
+  outline: none;
+ 
+}
+.speed label{
+  font-weight: bold;
+  color: #555;
+  letter-spacing: 1px;
+}
+.main{
+  
+  color: #222;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+
+
 }
