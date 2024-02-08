@@ -13,3 +13,70 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.background {
+  background: url('https://images.unsplash.com/photo-1556745757-8d76bdb6984b')
+    no-repeat center center/cover;
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
+}
+.content{
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.7);
+}
+.content h1{
+  
+  margin: 0 10px;
+  margin-top: 10px;
+}
+.content p {
+  margin-top: 0;
+}
+.main-form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-form ul{
+  list-style-type: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.main-form ul li{
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  margin: 15px ;
+}
+.main-form ul li label{
+  margin-bottom: 5px;
+}
+.main-form ul li input{
+  padding: 5px;
+}
+.main-form ul li input:focus{
+  overflow: none;
+}
+.main-form ul li input:active{
+  overflow: none;
+}
+.main-form button{
+  background-color: black;
+  color: white;
+  padding: 10px ;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main-form button:active{
+  transform: scale(.98);
+}
