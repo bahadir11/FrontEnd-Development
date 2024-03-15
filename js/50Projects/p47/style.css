@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(219, 150, 236);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.line{
+  border-bottom: white 3px solid;
+  border-radius: 3px;
+  transition: all .3s;
+}
+.container{
+  background-color: rgb(57, 61, 132);
+  width: 850px;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.8);
+}
+.paragraph{
+  color: antiquewhite;
+  font-size: 22px;
+  padding: 10px 20px;
+  position: relative;
+  text-align: justify;
+}
+.paragraph-1{
+  color: antiquewhite;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.left{
+  position: absolute;
+  font-size: 50px;
+  left: -35px;
+  top: -10px;
+  color: rgb(82, 26, 110);
+}
+.right{
+  position: absolute;
+  font-size: 50px;
+  right: -35px;
+  bottom: -10px;
+  color: rgb(82, 26, 110);
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
+}
+.info img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit:cover;
+  object-position: center;
+  
+
+}
+.name-info{
+  color: rgb(47, 14, 68);
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  
+} 
