@@ -60,9 +60,10 @@ const testimonials = [
 
 
 let idx = 0;
-testimonialSelection()
+testimonialSelection(idx)
 
-function testimonialSelection() { 
+function testimonialSelection(index) { 
+    console.log("idx" , idx);
     paragraph.innerHTML = `
     <small class="left"><i class="fa-solid fa-quote-right"></i></small>
         
@@ -74,21 +75,45 @@ function testimonialSelection() {
         <div class="name-info"><p>${testimonials[idx].name}</p>
         <p>${testimonials[idx].position}</p></div>
     `
-    makeLine(0)
- }
-
-function makeLine(starter) { 
-    for (let index = starter; index <= starter+1 ; index++) {
-        line.style.width = `${index}%`
-        console.log(index);
-        if (index == starter+1) {
-            setInterval(() => {
-            makeLine(index)
-        }, 100);
-        }
-        
-        
-    }
-
+    
+    makeLine()
     
  }
+ var myInterval;
+ var mysecondTimeout;
+
+function makeLine() { 
+    line.style.width = `0px`
+    console.log("makeLine");
+    mysecondTimeout = setTimeout(() => {
+       makeWidth(0); 
+    }, 1000);
+    
+    
+ }
+
+  function makeWidth(starter) {
+    for (let index = starter; index <= starter+1 ; index++) {
+        line.style.width = `${index}%`
+        console.log("object");
+        if (index === starter+1) {
+               
+            myInterval = setTimeout(() => {
+                makeWidth(index+1)
+            }, 500);
+        }  
+        console.log(index);
+        if(index >= 100){
+            clearTimeout(myInterval)
+            line.style.width = `0px`
+            idx++
+            
+            if (idx == 7) {
+                console.log("nigga");
+                idx = 0;
+                testimonialSelection(0)
+            } else {
+                console.log("nice");
+               testimonialSelection(idx) 
+            }
+}}}
